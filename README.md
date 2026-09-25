@@ -24,9 +24,9 @@ using `??` when there's no winner.
 You'll need the [Dart SDK](https://dart.dev/get-dart) installed. Then, from
 a terminal (the VS Code terminal or Command Prompt both work), run:
 
-
+'''
 dart run rock_paper_scissors.dart
-
+'''
 
 > Note: this needs a real terminal for keyboard input — DartPad won't work
 > since it can't read from `stdin`.

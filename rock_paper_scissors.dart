@@ -2,7 +2,7 @@ import 'dart:io';
 
 final List<String> saktongLihok = ['rock', 'paper', 'scissors'];
 
-//ask for player name using player number 
+///ask for player name using player number 
 String getManuwaayNgan(int number) {
   stdout.write('Enter Player $number name: ');
   String? input = stdin.readLineSync()?.trim();
@@ -13,13 +13,13 @@ String getManuwaayNgan(int number) {
   return input;
 }
 
-// return the move into lover case
+///return the move into lover case
 String? checkMove(String? input) {
   String move = input?.trim().toLowerCase() ?? '';
   return saktongLihok.contains(move) ? move : null;
 }
 
-// keep asking for the player to move until it gets the valid move
+/// keep asking for the player to move until it gets the valid move
 String getMove(String name) {
   String? move;
   do {
@@ -30,7 +30,7 @@ String getMove(String name) {
   return move;
 }
 
-//return 1 if the player one wins
+///return 1 if the player one wins
 int kinsayDaog(String first, String second) {
   if (first == second) return 0;
   switch (first) {
