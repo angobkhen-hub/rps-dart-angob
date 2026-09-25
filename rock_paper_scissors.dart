@@ -78,5 +78,5 @@ void main() {
       : playerTwoScore > playerOneScore ? playerTwo : null;
   print('\nFINAL SCORE');
   print('$playerOne: $playerOneScore | $playerTwo: $playerTwoScore');
-  print('Overall winner: ${overall ?? "It's a draw!  MAAMAAAAAAA!!"}');
+  print('Overall winner: ${overall ?? "It's a draw!"}');
 }

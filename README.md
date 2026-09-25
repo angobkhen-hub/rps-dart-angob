@@ -28,7 +28,7 @@ a terminal (the VS Code terminal or Command Prompt both work), run:
 dart run rock_paper_scissors.dart
 '''
 
-> Note: this needs a real terminal for keyboard input — DartPad won't work
+> Note: this dart code needs a real terminal for keyboard input — DartPad won't work
 > since it can't read from `stdin`.
 
 ## Playing a Round
